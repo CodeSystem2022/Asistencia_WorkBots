@@ -1,6 +1,57 @@
-#Hecho por Damian Quiñonez - WorkBots
+#Ejercicio N3: Rectangulo en python
+#Alumno: Quiñonez Nelson Damián
 
-# Fin ejercicio realizado por Damian Quiñonez
+class Rectangulo:
+    def __init__(self, altura, base, color):
+        self.__altura= altura
+        self.__base= base
+        self.__color= color
+
+    # Getters: empleamos para obtener los datos
+    def get_altura(self):
+        print(f'Altura: {self.__altura}')
+
+    def get_base(self):
+        print(f'Base: {self.__base}')
+    
+    def get_color(self):
+        print(f'Color: {self.__color}')
+
+    def get_caract(self):
+        print(f'Altura: {self.__altura}')
+        print(f'Base: {self.__base}')
+        print(f'Color: {self.__color}')
+
+    # Setters: se emplea para cambiar el valor de los datos
+    def set_altura(self, n_altura):
+        self.__altura= n_altura
+    
+    def set_base(self, n_base):
+        self.__base= n_base
+    
+    def set_color(self, n_color):
+        self.__color= n_color
+    
+rect1= Rectangulo(78, 195, 'verde')
+
+rect2= Rectangulo(64, 72, 'amarillo')
+
+rect3= Rectangulo(53, 78, 'rojo')
+
+# Mostrar caracteristicas particulares de cada objeto.
+rect1.get_altura()
+rect2.get_base()
+rect3.get_color
+
+#Mostramos todas las caracteristicas de un objeto.
+rect1.get_caract()
+
+#Cambiamos las caracteristicas
+rect1.set_color('rojo')
+
+#Mostramos los cambios
+rect1.get_color()
+
 
 #-----------------------------------------------------------------------------------------------------------------------------------------------
 
