@@ -128,5 +128,29 @@ print(f'El volumen del cubo es: {cubo1.calcular_volumen()}')
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------
+#Alumno: Ferro P. Nicolás
+
+class Cubo:
+    """
+    Crear la clase cubo con los atributos, ancho alto y profundidad, con
+    un metodo calcular_volumen que tendra la formula:
+    volumen = ancho * altura * profundidad.
+    que el usuario ingrese los valores.
+    """
+
+    def __init__(self,altura, base, prof):
+        self.altura = altura
+        self.base = base
+        self.prof = prof
+
+    def calcular_volumen(self):
+        return self.altura * self.base * self.prof
+
+base = int(input('Digite el numero de a base del cubo: '))
+altura = int(input('Digite un numero de altura para el cubo: '))
+prof= int(input('Digite un numero para la altura del cubo: '))
+cubo1 = Cubo(base, altura,prof)
+print(f'EL area del cubo es: {cubo1.calcular_volumen()}')
 
 
+#----------------------------------------------------------------------------------------------------------------------------------------------------------
