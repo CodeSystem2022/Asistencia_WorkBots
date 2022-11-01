@@ -1,6 +1,4 @@
-class Rectangulo:
-
-  """
+ """
   Crear una clase  llamada rectangulo, debe tener 2 atributos:
   Altura y base el nombre del método será calcular area utilizando la formula.
   Area = base * altura, pero la base y la altura deben ser ingresados por el usuario y los objetos deben ser 3 resultados"
