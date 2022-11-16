@@ -154,9 +154,10 @@ print(f'EL area del cubo es: {cubo1.calcular_volumen()}')
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------
+# Alumno:Manrique Cristian Fernando
 class Cubo:
     """"
-    Ejercicio para  asistencia LABORATORIO II, JAVA II: MANRIQUE CRISTIAN FERNANDO
+    Ejercicio para  asistencia LABORATORIO II, PROGRAMACIÓN II: MANRIQUE CRISTIAN FERNANDO
     El ejercicio es crear la clase Cubo con los atributos, alto, ancho, profundidad, 
     con un metodo que llame calcular_volumen que tendra la formula:
     (volumen = ancho * altura * profundidad)
