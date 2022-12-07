@@ -156,6 +156,34 @@ b = [6, 7, 8, 9]
 print(a + b)
 
 # miObjeto1 + miObjeto2 = esto no se podría hacer
+
+
+#------------------------------------------------------------------------------------------------------------------------------------------------
+# Alumno: Manrique Cristian
+
+" Asistencia Noviembre
+
+# Class persona
+
+class Persona:
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+
+    def __add__(self, other):  # Other = otro
+        return f'{self.nombre} {other.nombre}'
+
+    def __sub__(self, otro):  # Sub = substraction (resta)
+        return self.edad - otro.edad
+
+
+persona1 = Persona('Natalia', 38)
+persona2 = Persona('Gonzalez', 5)
+
+# persona1.__add__(persona2) sintaxis interna y automatica
+
+print(persona1 + persona2)
+print(persona1 - persona2)
 #-----------------------------------------------------------------------------------------------------------------------------------------------
 
 # Alumno: Nelson Damian Quiñonez
