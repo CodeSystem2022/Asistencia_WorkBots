@@ -80,3 +80,41 @@ if __name__ == '__main__':  # Solo será visible se la prueba se ejecuta desde a
     print(producto1)
     producto2 = Producto('Pantalon', 150.00)
     print(producto2)
+..................................................................................................................................................
+#Alumna: Leonela Reyes
+
+#Clase 15 POO- Diseño de Clases y Sobrecarga de Operadores.
+
+class Persona:
+    def __init__(self, nombre, edad, estaciones):
+        self.nombre = nombre
+        self.edad = edad
+        self.estaciones= estaciones
+    def __add__(self, other): # sumar
+       return f'{self.nombre} {other.nombre} {self.estaciones} {other.estaciones}'
+
+    def __sub__(self, otro):
+        return self.edad - otro.edad
+
+
+persona1 = Persona('Leonela', 28, ['verano',  'invierno'])
+persona2 = Persona('Reyes', 11, ['primavera', 'otoño'])
+
+# persona1.__add__(persona2) sintaxis interna y automatica
+
+print(persona1 + persona2)
+print(persona1 - persona2)
+print(persona1.estaciones + persona2.estaciones)
+a = 3
+b = 5
+print(a + b)
+
+a = 'Hola '
+b = 'mundo'
+print(a + b)
+
+a = [3, 4, 5]
+b = [6, 7, 8, 9]
+print(a + b)
+
+# miObjeto1 + miObjeto2 = esto no se podría hacer
