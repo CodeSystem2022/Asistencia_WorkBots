@@ -118,3 +118,41 @@ b = [6, 7, 8, 9]
 print(a + b)
 
 # miObjeto1 + miObjeto2 = esto no se podría hacer
+..................................................................................................................................................
+#Alumno: Ferro P Nicolás
+
+#Clase 15 POO. Diseño de clases y sobrecarga de operadores.
+
+class Persona:
+    def __init__(self, nombre, edad, estaciones):
+        self.nombre = nombre
+        self.edad = edad
+        self.estaciones= frutas
+    def __add__(self, other): # sumar
+       return f'{self.nombre} {other.nombre} {self.frutas} {other.frutas}'
+
+    def __sub__(self, otro):
+        return self.edad - otro.edad
+
+
+persona1 = Persona('Nico', 29, ['Durazno',  'Sandia'])
+persona2 = Persona('Dani', 29, ['Melon', 'Kiwi'])
+
+# persona1.__add__(persona2) sintaxis interna y automatica
+
+print(persona1 + persona2)
+print(persona1 - persona2)
+print(persona1.frutas + persona2.frutas)
+a = 3
+b = 5
+print(a + b)
+
+a = 'Hola '
+b = 'mundo'
+print(a + b)
+
+a = [3, 4, 5]
+b = [6, 7, 8, 9]
+print(a + b)
+
+# miObjeto1 + miObjeto2 = esto no se podría hacer
