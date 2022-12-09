@@ -2,7 +2,7 @@
 
 # Alumno: Facundo Giuliano
 
-# Leccion 12 - Clase 15 POO Parte 8 Diseño de clases y Sobrecarga de Operadores
+# Leccion 12 - Clase -15- POO Parte 8 -Diseño de Clases y Sobrecarga de Operadores-
 
 class Persona:
     def __init__(self, nombre, edad, comidasFavoritas):
